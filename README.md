@@ -34,7 +34,7 @@ QGIS was used to complete the entire project from the scratch.
 
 ***Street Data:*** The street dataset was loaded into QGIS. This dataset represents the walkable paths within the study area and is necessary for conducting network-based distance calculations.
 
-***Projection:*** NAD 84/ UTM Zone 16 projection was used and all of the data were converted to this projection to ensure spatial accuracy and proper alignment of layers.
+***Projection:*** NAD 83/ UTM Zone 16 projection was used and all of the data were converted to this projection to ensure spatial accuracy and proper alignment of layers.
 
 ![Methodology](Images/Methodology.png)
 
@@ -58,4 +58,5 @@ The output indicates that concentration of walkable access to parks are present 
 
 ### Final Project Link
 
-The full map can be viewed using the following link
+The full map can be viewed using the following link 
+[Index Page](https://kmnafee.github.io/FinalProject/)
