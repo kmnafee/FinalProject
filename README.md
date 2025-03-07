@@ -11,15 +11,15 @@ Following are the list of contents for the project
 
 
 ### Data Source
-* [Lexington Park Data] (https://data.lexingtonky.gov/datasets/764044274e974dbba9069d9dab7dcb34_0/explore?location=38.028560%2C-84.466742%2C10.42)
+* [Lexington Park Data](https://data.lexingtonky.gov/datasets/764044274e974dbba9069d9dab7dcb34_0/explore?location=38.028560%2C-84.466742%2C10.42)
 
 The data contains Boundaries of city and state maintained parks within Lexington-Fayette County, Kentucky.
 
-* [Lexington Street Data] (https://data.lexingtonky.gov/datasets/b0388c01870149c3987790659ac0b37f_0/explore?location=38.027384%2C-84.472968%2C9.54)
+* [Lexington Street Data](https://data.lexingtonky.gov/datasets/b0388c01870149c3987790659ac0b37f_0/explore?location=38.027384%2C-84.472968%2C9.54)
 
 The street centerline data contains address ranges, maintenance responsibility, road classification, speed limits, and more.
 
-* [Lexington Shapefile] (https://www.census.gov/cgi-bin/geo/shapefiles/index.php)
+* [Lexington Shapefile](https://www.census.gov/cgi-bin/geo/shapefiles/index.php)
 
 The data contains the shapefile of Fayette county, Kentucky.
 
