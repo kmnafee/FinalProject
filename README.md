@@ -58,4 +58,5 @@ The output indicates that concentration of walkable access to parks are present 
 
 ### Final Project Link
 
-The full map can be viewed using the following link
+The full map can be viewed using the following link 
+[Index Page](https://github.com/kmnafee/FinalProject/blob/main/index.html)
