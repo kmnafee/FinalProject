@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mapping Walkable Access to Parks - QGIS Network Analysis Project">
+    <title>Mapping Walkable Access to Parks in Lexington, Kentucky</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #004466;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .map-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ddd;
+        }
+        .links {
+            margin-top: 20px;
+        }
+        .links a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 15px;
+            text-decoration: none;
+            color: white;
+            background-color: #0077cc;
+            border-radius: 5px;
+        }
+        .links a:hover {
+            background-color: #005599;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            padding: 10px 20px;
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        footer .logo {
+            max-height: 40px; /* Smaller logo size */
+            width: auto; /* Maintains aspect ratio */
+        }
+    </style>
+</head>
+<body>
+
+    <header>Mapping Walkable Access to Parks in Lexington, Kentucky</header>
+
+    <div class="container">
+        <h2>Assessing Walkable Access to Parks Using QGIS Network Analysis</h2>
+        <p>The final project assesses the walking accessibility of parks in Lexington using walkable service areas based on the closest street network distances. By creating isochrones at 500m, 1000m, 1500m, and 2000m intervals, the project delineates the extent of walkable service areas of the parks to the residents of Lexington</p>
+        <h3>Data Sources</h3>
+<ul style="text-align: left; margin-left: 20px;">
+    <li>
+        <a href="https://data.lexingtonky.gov/datasets/764044274e974dbba9069d9dab7dcb34_0/explore?location=38.028560%2C-84.466742%2C10.42" target="_blank">
+            Lexington Park Data
+        </a> - Contains boundaries of city and state-maintained parks within Lexington-Fayette County, Kentucky.
+    </li>
+    <li>
+        <a href="https://data.lexingtonky.gov/datasets/b0388c01870149c3987790659ac0b37f_0/explore?location=38.027384%2C-84.472968%2C9.54" target="_blank">
+            Lexington Street Data
+        </a> - Contains street centerline data, including address ranges, maintenance responsibility, road classification, and speed limits.
+    </li>
+    <li>
+        <a href="https://www.census.gov/cgi-bin/geo/shapefiles/index.php" target="_blank">
+            Lexington Shapefile
+        </a> - Contains the shapefile of Fayette County, Kentucky, for spatial analysis.
+    </li>
+</ul>
+
+        <div class="map-container">
+            <h3>Map Visualization</h3>
+            <img src="Maps/FinalProject1200.png" alt="Park Accessibility Map">
+            <p><em>Click below for a full-screen map.</em></p>
+            <div class="links">
+                <a href="qgis2web_2025_03_07-00_51_01_217588/index.html" target="_blank">View Full Map</a>
+            </div>
+        </div>
+
+        <div class="links">
+            <a href="https://github.com/kmnafee/FinalProject" target="_blank">GitHub Repository</a>
+            <a href="Maps/FinalProject8000.png" target="_blank">High-Resolution Image for Download</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>Created by K M NAFEE | Final Project | MAP671-201: Introduction to New Mapping (Spring 2025)</p>
+        <img src="Images/UK_Logo.png" alt="Project Logo" class="logo">
+    </footer>
+
+</body>
+</html>
